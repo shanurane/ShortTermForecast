@@ -6,7 +6,7 @@ import AirConditions from "./components/AirConditions";
 import TodayForecast from "./components/TodayForecast";
 import WeeklyForecast from "./components/WeeklyForecast";
 import { Container, Row, Col } from "react-bootstrap";
-import "./weather.css";
+import "./Weather.css";
 import { WeatherContext } from "./WeatherContext"; // Import the context
 import PredictPVPower from "./PredictPvPower";
 const OPEN_METEO_URL = "https://api.open-meteo.com/v1/forecast";
